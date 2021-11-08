@@ -98,13 +98,14 @@
           :id="cielo"
           alt=""
         />
+         <img src="../assets/arrow.png" id="flecha" alt="" />
       
       </a-assets>
 
       <a-sky :src="`#${cielo}`" radius="20"></a-sky>
 
       <!-- Navegación -->
-      <!--<a-entity
+      <a-entity
         geometry="primitive: plane; height: 1; width: 1"
         material="shader: flat; src: #flecha; transparent: true"
         v-for="(navegador, index) in navegadores"
@@ -117,7 +118,7 @@
         event-set__mouseleave="scale: 1 1 1"
         rotation="270 180 0"
       >
-      </a-entity>-->
+      </a-entity>
 
       <!-- Iconos interactivos-->
       <a-entity

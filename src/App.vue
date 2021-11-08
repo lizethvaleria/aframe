@@ -19,7 +19,11 @@ const cielos = ["huella.jpg", "vistafrontal.jpg"];
 const escenas = {
   huella: {
     cielo: "huella.jpg",
-    navegadores: [{ posicion: "-9 -3 0", hacia: "vistafrontal" }],
+    navegadores: [{ posicion: "-6.3 -1 0", hacia: "vistafrontal" }],
+  },
+ vistafrontal: {
+    cielo: "vistafrontal.jpg",
+    navegadores: [{ posicion: "-6.3 -1 0", hacia: "huella" }],
   },
   
 };
