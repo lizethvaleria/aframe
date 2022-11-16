@@ -14,7 +14,7 @@
 
 <script>
 import Escena from "./components/Escena.vue";
-const cielos = ["huella.png", "vistafrontal.png"];
+const cielos = ["huella.png", "vistafrontal.png", "cielo1.png", "cielo2.png", "cielo3.png", "cielo4.png"];
 
 const escenas = {
   huella: {
@@ -23,6 +23,22 @@ const escenas = {
   },
  vistafrontal: {
     cielo: "vistafrontal.png",
+    navegadores: [{ posicion: "-2.6 0 -0.6", hacia: "cielo1" }],
+  },
+  cielo1: {
+    cielo: "cielo1.png",
+    navegadores: [{ posicion: "-2.6 0 -0.6", hacia: "cielo2" }],
+  },
+  cielo2: {
+    cielo: "cielo2.png",
+    navegadores: [{ posicion: "-2.6 0 -0.6", hacia: "cielo3" }],
+  },
+  cielo3: {
+    cielo: "cielo3.png",
+    navegadores: [{ posicion: "-2.6 0 -0.6", hacia: "cielo4" }],
+  },
+  cielo4: {
+    cielo: "cielo4.png",
     navegadores: [{ posicion: "-2.6 0 -0.6", hacia: "huella" }],
   },
   
